@@ -1,8 +1,15 @@
 
+    P  { text-align: center }
+    h1 { text-align: center }
+    h2 { text-align: center }
+    
+    body {
+        background-color: #50a1d3;
+        }
     form {
         /* Just to center the form on the page */
         margin: 0 auto;
-        width: 400px;
+        width: 900px;
         /* To see the outline of the form */
         padding: 1em;
         border: 1px solid #ccc;
@@ -22,7 +29,7 @@
     label {
         /* To make sure that all labels have the same size and are properly aligned */
         display: inline-block;
-        width: 90px;
+        width: 150px;
         text-align: right;
     }
 
@@ -31,7 +38,7 @@
         /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
         font: 1em sans-serif;
         /* To give the same size to all text fields */
-        width: 300px;
+        width: 900px;
         box-sizing: border-box; /* To harmonize the look & feel of text field border */
         border: 1px solid #999;
     }
