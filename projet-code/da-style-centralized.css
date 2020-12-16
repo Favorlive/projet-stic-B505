@@ -1,17 +1,25 @@
 
-    P  { text-align: center }
-    h1 { text-align: center }
-    h2 { text-align: center }
+    P  {
+        text-align: center;
+        display: inline-flex;
+        width: 450px;
+        text-align: left }
+    h1 { 
+        text-align: center 
+        }
+    h2 { 
+        text-align: center 
+        }
     
     body {
-        background-color: #50a1d3;
+        background-color: #1c8dd3;
         }
     form {
         /* Just to center the form on the page */
         margin: 0 auto;
-        width: 900px;
+        width: 1000px;
         /* To see the outline of the form */
-        padding: 1em;
+        padding: 2em;
         border: 1px solid #ccc;
         border-radius: 1em;
     }
@@ -28,9 +36,15 @@
 
     label {
         /* To make sure that all labels have the same size and are properly aligned */
-        display: inline-block;
-        width: 150px;
-        text-align: right;
+        display: flex;
+        width: 450px;
+        text-align: left;
+    }
+
+    select {
+        display: inline table;
+        width: 850px;
+        text-align: left;
     }
 
     input,
